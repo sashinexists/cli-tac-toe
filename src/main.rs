@@ -32,8 +32,20 @@ impl Grid {
                 None => (i + 1).to_string(),
             })
             .collect();
+        // println!(
+        //     "|-|-|-|\n|{}|{}|{}|\n|-|-|-|\n|{}|{}|{}|\n|-|-|-|\n|{}|{}|{}|\n|-|-|-|",
+        //     &grid_view[0],
+        //     &grid_view[1],
+        //     &grid_view[2],
+        //     &grid_view[3],
+        //     &grid_view[4],
+        //     &grid_view[5],
+        //     &grid_view[6],
+        //     &grid_view[7],
+        //     &grid_view[8]
+        // );
         println!(
-            "|-|-|-|\n|{}|{}|{}|\n|-|-|-|\n|{}|{}|{}|\n|-|-|-|\n|{}|{}|{}|\n|-|-|-|",
+            "\n {} {} {} \n {} {} {} \n {} {} {} \n",
             &grid_view[0],
             &grid_view[1],
             &grid_view[2],
